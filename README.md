@@ -48,9 +48,9 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 
 **Acceptance Criteria**
 
-- Can type any word that begins with a vowel in the text input (e.g. apple)
-- Can hit the submit button
-- Can see the words that begin with a vowel translated to Pig Latin and rendered to the page (e.g. appleway)
+- Can type any word that begins with a vowel in the text input (e.g. apple) ✅
+- Can hit the submit button ✅ 
+- Can see the words that begin with a vowel translated to Pig Latin and rendered to the page (e.g. appleway) ✅
 
 **Story 2: In order to see English words converted to Pig Latin, as the user of the application, I need to see words that have "qu" in the first syllable translated by moving all the consonant and the "u" to the end and add "ay".**
 
