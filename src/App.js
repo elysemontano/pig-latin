@@ -37,6 +37,9 @@ const App = () => {
       } else if(eachWord.includes("qu")) {
         let sliceAt = eachWord.indexOf("u") + 1
         eachWord = `${eachWord.slice(sliceAt)}${eachWord.slice(0, sliceAt)}ay`
+      } else if (vowelsArray.length === 0 && eachWord[eachWord.length - 1] === "y") {
+        let sliceAt = eachWord.indexOf("y")
+        eachWord = `y${eachWord.slice(0, sliceAt)}ay`
       } else {
         eachWord = eachWord
       }
