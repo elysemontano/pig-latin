@@ -78,9 +78,9 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 
 **Acceptance Criteria**
 
-- Can type any word that starts with one or more consonants in the text input (e.g. through)
-- Can hit the submit button
-- Can see the words that start with one or more consonants translated to Pig Latin and rendered to the page (e.g. oughthray)
+- Can type any word that starts with one or more consonants in the text input (e.g. through) ✅
+- Can hit the submit button ✅
+- Can see the words that start with one or more consonants translated to Pig Latin and rendered to the page (e.g. oughthray) ✅
 
 ### 🏔 Stretch Challenges
 
