@@ -34,6 +34,9 @@ const App = () => {
       // ACTION ITEM: your Pig Latin logic goes here!
       if(eachWord[0] === vowelsArray[0]) {
         eachWord = `${eachWord}way`
+      } else if(eachWord.includes("qu")) {
+        let sliceAt = eachWord.indexOf("u") + 1
+        eachWord = `${eachWord.slice(sliceAt)}${eachWord.slice(0, sliceAt)}ay`
       } else {
         eachWord = eachWord
       }
